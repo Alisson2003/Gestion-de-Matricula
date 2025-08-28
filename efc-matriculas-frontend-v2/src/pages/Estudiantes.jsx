@@ -66,10 +66,10 @@ export default function Estudiantes(){
           </div>
         </form>
 
-        <div style={{marginTop:12}}>
-          <input placeholder="Buscar por nombre, apellido, email o cédula..." value={search} onChange={e=>setSearch(e.target.value)}/>
-          <button style={{marginLeft:8}} onClick={load}>Buscar</button>
-        </div>
+        //<div style={{marginTop:12}}>
+          //<input placeholder="Buscar por nombre, apellido, email o cédula..." value={search} onChange={e=>setSearch(e.target.value)}/>
+          //<button style={{marginLeft:8}} onClick={load}>Buscar</button>
+        //</div>
 
         <table className="table">
           <thead><tr><th>ID</th><th>Nombre</th><th>Apellido</th><th>Cédula</th><th>Email</th><th>Teléfono</th><th>Acciones</th></tr></thead>
